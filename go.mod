@@ -6,10 +6,10 @@ require (
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.1422
 	github.com/cert-manager/cert-manager v1.12.4
 	github.com/pkg/errors v0.9.1
-	k8s.io/apiextensions-apiserver v0.28.1
+	k8s.io/apiextensions-apiserver v0.27.2
 	k8s.io/apimachinery v0.28.1
 	k8s.io/client-go v0.28.1
-	k8s.io/klog v1.0.0
+	k8s.io/klog v0.2.0
 )
 
 replace github.com/cert-manager/cert-manager => github.com/cert-manager/cert-manager v1.11.1-0.20230119150913-7ebb5f515e4f
@@ -32,7 +32,6 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
-	github.com/go-logr/zapr v1.2.4 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
 	github.com/go-openapi/swag v0.22.3 // indirect
